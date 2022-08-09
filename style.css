@@ -1,0 +1,56 @@
+body {
+    font-family: DejaVu Sans Mono, monospace;
+    margin: 20px;
+    color: #B0C4DE;
+    background-color: #ffffff;
+    text-align: center;
+}
+canvas{
+    margin: 0 auto;
+}
+#game-over{
+    transition: 1s all;
+    z-index: -1;
+    opacity: 0;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    color: #ff0481;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 44px;
+}
+.game-over-button{
+    margin: 10px auto;
+    display: block;
+    border: 0;
+    outline: none;
+    background-color: white;
+    border-radius: 50px;
+    padding: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#win{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: -1;
+    background-color: black;
+}
+#mazzutti{
+    margin: 20px;
+    height: 50%;
+    width: 25%;
+}
